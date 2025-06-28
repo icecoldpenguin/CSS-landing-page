@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS landing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: "Inter", sans-serif;
+    }
+    .header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+    .sidebar {
+        display: flex;
+        font-size: 18px;
+        color: #E5E7EB;
+        gap: 20px;
+    }
+    .header-box {
+        background-color: #1F2937;
+        border: 0px;
+        margin: 0px;
+        padding-top: 10px;
+    }
+    .eye-box {
+        display: flex;
+        background-color: #1F2937;
+        height: 50vh;
+        display: flex;
+        padding-left: 250px;
+        padding-right: 250px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .main-text {
+        flex: 1;
+        flex-wrap: wrap;
+        align-items: center;
+        align-items: center;
+        font-size: 48px;
+        color: #F9FAF8;
+        font-weight: 900;
+    }
+    .sub-text {
+        flex: 0;
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+    .wrapper {
+        flex: 1;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .button {
+        padding: 10px;
+        border: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #3882F6;
+        border-radius: 8px;
+        font-weight: bold;
+        color: #F9FAF8;
+        margin-top: 10px;
+    }
+    .boxes {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .blue-box {
+        flex: 0 0 auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 16px;
+        border: 5px solid #4285F4;
+    }
+    .info-text {
+        text-align: center;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .box-wrapper {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+        color: #667385;
+    }
+    .main-box {
+        padding-bottom: 70px;
+    }
+    .quote-wrapper {
+        display: flex;
+        background-color: #E5E7EB;
+        height: 240px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 250px;
+        padding-right: 250px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .quote-text {
+        flex: 1;
+        font-size: 36px;
+        color: #1F2937;
+    }
+    .quote-author {
+        flex: 0;
+        font-size: 18px;
+        align-self: flex-end;
+    }
+    .footer-box {
+        height: 100px;
+        margin: 100px;
+        padding: 30px;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #4285F4;
+        border-radius: 16px;
+    }
+    .footer-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 24px;
+        color: #F9FAF8;
+        font-weight: bold;
+    }
+    .footer-sub {
+        font-size: 18px;
+        color: #F9FAF8;
+    }
+    .footer-button {
+        flex: 0;
+        padding: 7px;
+        border: 2px solid #F9FAF8;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #4285F4;
+        border-radius: 8px;
+        color: #F9FAF8;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+</style>
+<body>
+    <div class="header-box">
+        <div class="header">
+            <h1 class="head">Header Logo</h1>
+            <div class="sidebar">
+                <div>header link one</div>
+                <div>header link two</div>
+                <div>header link three</div>
+            </div>
+        </div>
+    </div>
+    <div class="eye-box">
+        <div class="wrapper">
+            <div class="main-text">This website is awesome</div>
+            <div class="sub-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
+            <button class="button">Sign Up</button>
+        </div>
+        <img class="img" src="https://images.unsplash.com/photo-1750327324294-174539706e4c?q=80&w=1127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="website image">
+    </div>
+    <div class="main-box">
+        <div class="info-text">Some random information.</div>
+        <div class="boxes">
+            <div class="box-wrapper">
+            <div class="blue-box"></div>
+            <p class="box-text">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="box-wrapper">
+            <div class="blue-box"></div>
+            <p class="box-text">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="box-wrapper">
+            <div class="blue-box"></div>
+            <p class="box-text">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="box-wrapper">
+            <div class="blue-box"></div>
+            <p class="box-text">this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </div>
+    <div class="quote-box">
+        <div class="quote-wrapper">
+            <div class="quote-text"><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel impedit excepturi perferendis consectetur eius est veniam animi reiciendis rerum rem eligendi iste architecto nam, quas dignissimos eveniet exercitationem quam.</em></div>
+        <div class="quote-author">- A wise man</div>
+    </div>
+    <div class="footer-box">
+        <div class="footer-wrapper">
+            <div class="footer-text">Call to action! It's time!</div>
+            <button class="footer-button">Sign up</button>
+        </div>
+        <div class="footer-sub">Sign up for our product by clicking that button right over there!</div>
+    </div>
+</body>
+</html>
