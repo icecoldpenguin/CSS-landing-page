@@ -4,3 +4,6 @@ A website project from TheOdinProject curriculumn (for CSS & Flexbox). My task i
 
 ![image](https://github.com/user-attachments/assets/ac5177a8-9122-4df6-8c26-0c69f60fa9e9)
 ![image](https://github.com/user-attachments/assets/6c104c7e-b679-4659-8556-04e2339ea274)
+
+## Live preview for my version of this page:
+https://icecoldpenguin.github.io/CSS-landing-page/
